@@ -19,3 +19,7 @@ rails db:migrate
 git push heroku
 
 heroku run rails db:migrate
+
+* test instructions (CLI)
+
+rails test
