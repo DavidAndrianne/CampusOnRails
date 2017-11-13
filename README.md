@@ -1,24 +1,18 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
 * Ruby version
+This project was developed in Ruby 2.3.3, Rails 5.1
 
-* System dependencies
+* Setup
+1. Download and run rails installer : 
+2. Inside of "CampusOnRails" dir run CLI : gem install bundler
+3. CLI : bundle install
 
-* Configuration
+Congratulations, you now have all libraries you need to initialize this project!
 
-* Database creation
+* Database creation (CLI)
+rails db:migrate
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Deployment instructions (CLI)
+git push heroku
+heroku run rails db:migrate
